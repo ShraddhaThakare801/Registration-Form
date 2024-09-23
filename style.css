@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+    color: darkblue;
+}
+form{
+    background: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+h1{
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+input[type="radio"],
+input[type="checkbox"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    display: inline block;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+    color: darkblue;
+}
+input[type="submit"]{
+    background-color: rgb(19, 131, 131);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:none;
+}
+input[type="reset"]
+{
+    background-color: rgb(19, 131, 131);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: inline-end;
+}
+input[type="submit"]:hover{
+    background-color: #07624d;
+}
+input[type="reset"]:hover{
+    background-color: #07624d;
+}
+.form-buttons{
+    text-align: center;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
