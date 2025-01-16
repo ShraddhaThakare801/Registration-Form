@@ -1,1 +1,1 @@
-alert("Registered Successfully !");
+alert("You are registered successfully !");
